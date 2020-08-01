@@ -43,7 +43,7 @@ Fix messy or inconsistent code
 ```
 standard --fix
 ```
-### //TODO: Test
+### //TODO: test
 Run unit test
 ```
 mocha
