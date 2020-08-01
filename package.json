@@ -1,0 +1,41 @@
+{
+  "name": "express-api-starter-template-project",
+  "version": "1.0.0",
+  "description": "This is a express starter template project",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punitpi/express-api-starter-template-project.git"
+  },
+  "author": "Puneeth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/punitpi/express-api-starter-template-project/issues"
+  },
+  "homepage": "https://github.com/punitpi/express-api-starter-template-project#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  }
+}
