@@ -1,5 +1,6 @@
-Express API Starter Template Project
+# Express API Starter Template Project
 
+## Dependencies:
 * [chalk](https://www.npmjs.com/package/chalk)
   * Chalk for coloring the text in console
 * [cors](https://www.npmjs.com/package/cors)
@@ -16,10 +17,34 @@ Express API Starter Template Project
   * HTTP request logger middleware for node.js
 
 
-Development utilities:
+## Development Dependencies:
 * [eslint](https://www.npmjs.com/package/eslint)
   * ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 * [nodemon](https://www.npmjs.com/package/nodemon)
   * nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 * [standard](https://www.npmjs.com/package/standard)
   * Standard JS is detailed as "A JavaScript Standard Style". It is a Style guide, with linter & automatic code fixer. It is a way to enforce consistent style in your project. It automatically formats code.
+  
+
+## Scripts
+
+### start
+Run the project
+```
+node src/index.js
+```
+### dev
+Run the project using nodemon
+```
+nodemon src/index.js
+```
+### lint
+Fix messy or inconsistent code
+```
+standard --fix
+```
+### //TODO: Test
+Run unit test
+```
+mocha
+```
